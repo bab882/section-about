@@ -18,11 +18,40 @@
   height: auto;
   background: black;
   flex-grow: 1;
-  padding: 30px;
+  
   border-radius: 30px;
+}
+.item1, 
+.item3, 
+.item4, 
+.item5, 
+.item6, 
+.item7, 
+.item8 {
+  padding: 30px;
+  height: auto;
 }
 .description_about {
   font-size: 22px;
-  font-weight: 600;
   color: #fefefe;
+}
+.link {
+  display: flex;
+  justify-content: float start;
+}
+
+.item2 img:nth-child(odd) {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 30px;
+}
+.item4 h4 {
+  color: #fefefe;
+  font-size: 20px;
+}
+.item4 p {
+  color: #666666;
+  font-size: 15px;
+  margin: 20px 0;
 }
