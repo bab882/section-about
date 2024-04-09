@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+
+}
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: top;
+  margin: 10px;
+  gap: 30px;
+}
+.item {
+  width: 560px;
+  height: auto;
+  background: black;
+  flex-grow: 1;
+  padding: 30px;
+  border-radius: 30px;
+}
+.description_about {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fefefe;
+}
