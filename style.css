@@ -70,3 +70,46 @@ body {
   display: block;
   border-radius: 10px;
 }
+.bg-icone {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-image: linear-gradient(#8B5994 20%, #053781 140%);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 15px 0 0;
+  text-decoration: none;
+}
+.bg-icone2 {
+  height: 32px;
+  width: 105px;
+  border-radius: 30px;
+  background-image: linear-gradient(#8B5994 20%, #053781 140%);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 15px 0 0;
+  text-decoration: none;
+  color: #fefefe;
+}
+.bg-icone2 i {
+  height: 15px;
+  width: 15px;
+  color: #fefefe;
+}
+.bg-icone i {
+  height: 15px;
+  width: 15px;
+  color: #fefefe;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item:nth-child(){
+    order: 1;
+  }
+}
