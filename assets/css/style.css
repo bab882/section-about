@@ -43,6 +43,7 @@ body {
   color: #fefefe;
   font-size: 20px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 .item p {
   color: #666666;
@@ -70,6 +71,14 @@ body {
   display: block;
   border-radius: 10px;
 }
+.link-left {
+  display: block;
+  float: left;
+}
+.link-right {
+  display: block;
+  float: right;
+}
 .bg-icone {
   height: 32px;
   width: 32px;
@@ -83,20 +92,22 @@ body {
 }
 .bg-icone2 {
   height: 32px;
-  width: 105px;
+  width: 120px;
   border-radius: 30px;
   background-image: linear-gradient(#8B5994 20%, #053781 140%);
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 45px 15px 0 0;
   text-decoration: none;
   color: #fefefe;
+  gap: 15px;
 }
 .bg-icone2 i {
   height: 15px;
   width: 15px;
   color: #fefefe;
+  /* margin: 20px; */
 }
 .bg-icone i {
   height: 15px;
